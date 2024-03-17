@@ -1,6 +1,6 @@
 //complete this code
 class Animal {
-	constructor(species){
+	constructor(species: string){
 		this._species;
 		
 		
