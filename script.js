@@ -45,9 +45,7 @@ class Animal {
   get species() {
     return this._species;
   }
-	 set species() {
-     this._species=species;
-  }
+
   makeSound() {
     console.log("The " + this.species + " makes a sound");
   }
