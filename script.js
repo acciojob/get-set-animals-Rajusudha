@@ -9,19 +9,19 @@ class Animal {
 		return this._species;
 	}
 	set makeSound(){
-		this._species=_species;
+		this._species=species;
 	}
 }
 
 class Dog extends Animal {
 	bark(){
-		console.log(`${this._species}`)
+		console.log(`${this.species}`)
 	}
 }
 
 class Cat extends Animal {
 	purr(){
-		console.log(`${this._species}`)
+		console.log(`${this.species}`)
 	}
 }
 
