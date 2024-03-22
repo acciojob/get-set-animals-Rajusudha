@@ -44,7 +44,7 @@
 // hello sir
 // hello sir
 
-Team Acciojob  to  You (direct message) 16:27
+// Team Acciojob  to  You (direct message) 16:27
 class Animal {
   constructor(species) {
     this._species = species;
